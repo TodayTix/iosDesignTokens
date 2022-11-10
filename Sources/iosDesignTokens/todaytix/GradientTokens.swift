@@ -6,7 +6,8 @@
 import UIKit
 
 public class GradientTokens {
-	public var lightInteractiveInteractive01: CAGradientLayer {
+    
+	public static var lightInteractiveInteractive01: CAGradientLayer {
 		get {
 			let gradientLayer = CAGradientLayer()
 			gradientLayer.colors = [UIColor(red: 0.871, green: 0.149, blue: 0.318, alpha:1), UIColor(red: 0.882, green: 0.145, blue: 0.157, alpha:1)]
@@ -16,7 +17,7 @@ public class GradientTokens {
 		}
 	}
 
-	public var lightTagBrandBackground: CAGradientLayer {
+	public static var lightTagBrandBackground: CAGradientLayer {
 		get {
 			let gradientLayer = CAGradientLayer()
 			gradientLayer.colors = [UIColor(red: 0.871, green: 0.149, blue: 0.318, alpha:1), UIColor(red: 0.882, green: 0.145, blue: 0.157, alpha:1)]
@@ -26,7 +27,7 @@ public class GradientTokens {
 		}
 	}
 
-	public var lightTagBrandHover: CAGradientLayer {
+	public static var lightTagBrandHover: CAGradientLayer {
 		get {
 			let gradientLayer = CAGradientLayer()
 			gradientLayer.colors = [UIColor(red: 1.000, green: 0.059, blue: 0.341, alpha:1), UIColor(red: 1.000, green: 0.071, blue: 0.149, alpha:1)]
@@ -36,7 +37,7 @@ public class GradientTokens {
 		}
 	}
 
-	public var coreGradientTangerine: CAGradientLayer {
+	public static var coreGradientTangerine: CAGradientLayer {
 		get {
 			let gradientLayer = CAGradientLayer()
 			gradientLayer.colors = [UIColor(red: 0.765, green: 0.137, blue: 0.137, alpha:1), UIColor(red: 1.000, green: 0.506, blue: 0.333, alpha:1)]
@@ -46,7 +47,7 @@ public class GradientTokens {
 		}
 	}
 
-	public var coreGradientSky: CAGradientLayer {
+	public static var coreGradientSky: CAGradientLayer {
 		get {
 			let gradientLayer = CAGradientLayer()
 			gradientLayer.colors = [UIColor(red: 0.000, green: 0.208, blue: 0.463, alpha:1), UIColor(red: 0.114, green: 0.584, blue: 0.851, alpha:1)]
@@ -56,7 +57,7 @@ public class GradientTokens {
 		}
 	}
 
-	public var coreGradientRaspberry: CAGradientLayer {
+	public static var coreGradientRaspberry: CAGradientLayer {
 		get {
 			let gradientLayer = CAGradientLayer()
 			gradientLayer.colors = [UIColor(red: 0.502, green: 0.024, blue: 0.220, alpha:1), UIColor(red: 0.882, green: 0.090, blue: 0.408, alpha:1)]
@@ -66,7 +67,7 @@ public class GradientTokens {
 		}
 	}
 
-	public var coreGradientGrape: CAGradientLayer {
+	public static var coreGradientGrape: CAGradientLayer {
 		get {
 			let gradientLayer = CAGradientLayer()
 			gradientLayer.colors = [UIColor(red: 0.224, green: 0.043, blue: 0.537, alpha:1), UIColor(red: 0.580, green: 0.239, blue: 0.851, alpha:1)]
@@ -76,7 +77,7 @@ public class GradientTokens {
 		}
 	}
 
-	public var coreGradientMidnight: CAGradientLayer {
+	public static var coreGradientMidnight: CAGradientLayer {
 		get {
 			let gradientLayer = CAGradientLayer()
 			gradientLayer.colors = [UIColor(red: 0.157, green: 0.137, blue: 0.271, alpha:1), UIColor(red: 0.043, green: 0.043, blue: 0.063, alpha:1)]
@@ -86,7 +87,7 @@ public class GradientTokens {
 		}
 	}
 
-	public var coreGradientCandyapple: CAGradientLayer {
+	public static var coreGradientCandyapple: CAGradientLayer {
 		get {
 			let gradientLayer = CAGradientLayer()
 			gradientLayer.colors = [UIColor(red: 0.871, green: 0.149, blue: 0.318, alpha:1), UIColor(red: 0.882, green: 0.145, blue: 0.157, alpha:1)]
@@ -96,7 +97,7 @@ public class GradientTokens {
 		}
 	}
 
-	public var coreGradientDragonfruit: CAGradientLayer {
+	public static var coreGradientDragonfruit: CAGradientLayer {
 		get {
 			let gradientLayer = CAGradientLayer()
 			gradientLayer.colors = [UIColor(red: 1.000, green: 0.059, blue: 0.341, alpha:1), UIColor(red: 1.000, green: 0.071, blue: 0.149, alpha:1)]
@@ -106,7 +107,7 @@ public class GradientTokens {
 		}
 	}
 
-	public var darkInteractiveInteractive01: CAGradientLayer {
+	public static var darkInteractiveInteractive01: CAGradientLayer {
 		get {
 			let gradientLayer = CAGradientLayer()
 			gradientLayer.colors = [UIColor(red: 1.000, green: 0.059, blue: 0.341, alpha:1), UIColor(red: 1.000, green: 0.071, blue: 0.149, alpha:1)]
@@ -116,7 +117,7 @@ public class GradientTokens {
 		}
 	}
 
-	public var darkBackgroundUiBackground: CAGradientLayer {
+	public static var darkBackgroundUiBackground: CAGradientLayer {
 		get {
 			let gradientLayer = CAGradientLayer()
 			gradientLayer.colors = [UIColor(red: 0.157, green: 0.137, blue: 0.271, alpha:1), UIColor(red: 0.043, green: 0.043, blue: 0.063, alpha:1)]
@@ -126,7 +127,7 @@ public class GradientTokens {
 		}
 	}
 
-	public var darkTagBrandBackground: CAGradientLayer {
+	public static var darkTagBrandBackground: CAGradientLayer {
 		get {
 			let gradientLayer = CAGradientLayer()
 			gradientLayer.colors = [UIColor(red: 1.000, green: 0.059, blue: 0.341, alpha:1), UIColor(red: 1.000, green: 0.071, blue: 0.149, alpha:1)]
@@ -136,7 +137,7 @@ public class GradientTokens {
 		}
 	}
 
-	public var darkTagBrandHover: CAGradientLayer {
+	public static var darkTagBrandHover: CAGradientLayer {
 		get {
 			let gradientLayer = CAGradientLayer()
 			gradientLayer.colors = [UIColor(red: 0.871, green: 0.149, blue: 0.318, alpha:1), UIColor(red: 0.882, green: 0.145, blue: 0.157, alpha:1)]
