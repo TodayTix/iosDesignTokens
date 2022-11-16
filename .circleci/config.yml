@@ -29,9 +29,9 @@ jobs:
       - *download_ruby_dependencies
       - *save_gems_cache
       - persist_to_workspace:
-        root: ~/project
-        paths:
-          - ./
+          root: ~/project
+          paths:
+            - ./
 
   create-new-release:
     working_directory: ~/project
