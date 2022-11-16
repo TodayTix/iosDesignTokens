@@ -18,8 +18,5 @@ let package = Package(
         .target(
             name: "iosDesignTokens",
             dependencies: []),
-//        .testTarget(
-//            name: "iosDesignTokensTests",
-//            dependencies: ["iosDesignTokens"]),
     ]
 )

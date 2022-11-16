@@ -1,0 +1,59 @@
+references:
+  gems_key: &gems_key
+              gems-{{ checksum "Gemfile.lock" }}
+
+  save_gems_cache: &save_gems_cache
+    save_cache:
+      key: *gems_key
+      paths:
+        - vendor/bundle
+
+  restore_gems_cache: &restore_gems_cache
+    restore_cache:
+      key: *gems_key
+
+  download_ruby_dependencies: &download_ruby_dependencies
+    run:
+      name: Download Ruby dependencies
+      command: |
+        make download-ruby-dependencies
+
+version: 2.1
+jobs:
+    setup-workspace:
+        working_directory: ~/project
+        macos:
+            xcode: 13.3.1 # Possible values at https://circleci.com/docs/2.0/testing-ios/#supported-xcode-versions
+        steps:
+            - checkout
+            - *restore_gems_cache
+            - *download_ruby_dependencies
+            - *save_gems_cache
+            - persist_to_workspace:
+                root: ~/project
+                paths:
+                    - ./
+    create-new-release:
+        working_directory: ~/project
+        macos:
+            xcode: 13.3.1 # Possible values at https://circleci.com/docs/2.0/testing-ios/#supported-xcode-versions
+        steps:
+            - checkout
+            - run:
+                name: Create new release
+                command: make create-release
+
+workflows:
+  version: 2
+  new-version:
+	jobs:
+        - setup-workspace:
+            filters:
+                branches:
+                    only:
+                        - main
+        - create-new-release:
+            filters:
+                branches:
+                    only:
+                        - main
