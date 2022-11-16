@@ -1,6 +1,6 @@
 references:
   gems_key: &gems_key
-              gems-{{ checksum "Gemfile.lock" }}
+    gems-{{ checksum "Gemfile.lock" }}
 
   save_gems_cache: &save_gems_cache
     save_cache:
@@ -15,8 +15,7 @@ references:
   download_ruby_dependencies: &download_ruby_dependencies
     run:
       name: Download Ruby dependencies
-      command: |
-        make download-ruby-dependencies
+      command: make download-ruby-dependencies
 
 version: 2.1
 jobs:
@@ -41,20 +40,20 @@ jobs:
     steps:
       - checkout
       - run:
-        name: Create new release
-        command: make create-release
+          name: Create new release
+          command: make create-release
 
 workflows:
   version: 2
   new-version:
     jobs:
       - setup-workspace:
-        filters:
-          branches:
-            only:
-              - main
+          filters:
+            branches:
+              only:
+                - main
       - create-new-release:
-        filters:
-          branches:
-            only:
-              - main
+          filters:
+            branches:
+              only:
+                - main
