@@ -11,6 +11,12 @@ let package = Package(
         .library(
             name: "iosDesignTokens",
             targets: ["iosDesignTokens"]),
+        .library(
+            name: "todaytixDesignTokens",
+            targets: ["todaytixDesignTokens"]),
+        .library(
+            name: "goldstarDesignTokens",
+            targets: ["goldstarDesignTokens"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
