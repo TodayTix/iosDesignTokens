@@ -18,6 +18,10 @@ let package = Package(
         .target(
             name: "iosDesignTokens",
             dependencies: []),
+        .target(name: "todaytixDesignTokens",
+                dependencies: []),
+        .target(name: "goldstarDesignTokens",
+                dependencies: []),
 //        .testTarget(
 //            name: "iosDesignTokensTests",
 //            dependencies: ["iosDesignTokens"]),
