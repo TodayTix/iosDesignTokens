@@ -22,8 +22,5 @@ let package = Package(
                 dependencies: []),
         .target(name: "goldstarDesignTokens",
                 dependencies: []),
-//        .testTarget(
-//            name: "iosDesignTokensTests",
-//            dependencies: ["iosDesignTokens"]),
     ]
 )
