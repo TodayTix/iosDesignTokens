@@ -17,9 +17,16 @@ references:
       name: Download Ruby dependencies
       command: make download-ruby-dependencies
 
+  set-git-user: &set-git-user
+    run:
+      name: Set Git User
+      command: |
+        git config user.email $GIT_USER_EMAIL
+        git config user.name $GIT_USER_NAME
+
 version: 2.1
 jobs:
-  setup-workspace:
+  create-new-release:
     working_directory: ~/project
     macos:
       xcode: 13.3.1 # Possible values at https://circleci.com/docs/2.0/testing-ios/#supported-xcode-versions
@@ -28,17 +35,7 @@ jobs:
       - *restore_gems_cache
       - *download_ruby_dependencies
       - *save_gems_cache
-      - persist_to_workspace:
-          root: ~/project
-          paths:
-            - ./
-
-  create-new-release:
-    working_directory: ~/project
-    macos:
-      xcode: 13.3.1 # Possible values at https://circleci.com/docs/2.0/testing-ios/#supported-xcode-versions
-    steps:
-      - checkout
+      - *set-git-user
       - run:
           name: Create new release
           command: make create-release
@@ -47,11 +44,6 @@ workflows:
   version: 2
   new-version:
     jobs:
-      - setup-workspace:
-          filters:
-            branches:
-              only:
-                - main
       - create-new-release:
           filters:
             branches:
