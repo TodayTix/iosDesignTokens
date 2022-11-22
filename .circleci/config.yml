@@ -36,6 +36,9 @@ jobs:
       - *download_ruby_dependencies
       - *save_gems_cache
       - *set-git-user
+      - add_ssh_keys:
+          fingerprints:
+            - $DEPLOY_KEY
       - run:
           name: Create new release
           command: make create-release
