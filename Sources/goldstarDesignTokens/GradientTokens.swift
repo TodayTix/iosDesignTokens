@@ -1,11 +1,13 @@
 
 // Do not edit directly
-// Generated on Thu, 10 Nov 2022 19:19:40 GMT
+// Generated on Tue, 22 Nov 2022 20:44:54 GMT
 
 
 import UIKit
 
 public class GradientTokens {
+	public init() {}
+
 	public var lightInteractiveInteractive01: CAGradientLayer {
 		get {
 			let gradientLayer = CAGradientLayer()
