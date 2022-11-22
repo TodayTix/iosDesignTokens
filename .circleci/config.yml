@@ -38,7 +38,7 @@ jobs:
       - *set-git-user
       - add_ssh_keys:
           fingerprints:
-            - $DEPLOY_KEY
+            - "59:7b:7e:d3:fd:0e:8b:e6:11:76:1d:20:ef:15:cf:18"
       - run:
           name: Create new release
           command: make create-release
