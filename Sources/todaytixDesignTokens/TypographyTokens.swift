@@ -1,607 +1,671 @@
 
 // Do not edit directly
-// Generated on Fri, 23 Dec 2022 15:25:34 GMT
+// Generated on Mon, 23 Jan 2023 20:22:55 GMT
 
 
 import UIKit
 
 public extension UILabel {
-	static func globalH1Sm(
+	static func h1Sm(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "Gellix-Bold", size: 49)
-			let paragraphStyle = NSMutableParagraphStyle()
-			paragraphStyle.lineHeightMultiple = 1.25
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-					.paragraphStyle: paragraphStyle,
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "Gellix-Bold", size: 49)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		let paragraphStyle = NSMutableParagraphStyle()
+		paragraphStyle.lineHeightMultiple = 1.25
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+				.paragraphStyle: paragraphStyle,
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
-	static func globalH1Md(
+	static func h1Md(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "Gellix-Bold", size: 56)
-			let paragraphStyle = NSMutableParagraphStyle()
-			paragraphStyle.lineHeightMultiple = 1.25
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-					.paragraphStyle: paragraphStyle,
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "Gellix-Bold", size: 56)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		let paragraphStyle = NSMutableParagraphStyle()
+		paragraphStyle.lineHeightMultiple = 1.25
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+				.paragraphStyle: paragraphStyle,
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
-	static func globalH2Sm(
+	static func h2Sm(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "Gellix-Bold", size: 39)
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "Gellix-Bold", size: 39)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
-	static func globalH2Md(
+	static func h2Md(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "Gellix-Bold", size: 45)
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "Gellix-Bold", size: 45)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
-	static func globalH3Sm(
+	static func h3Sm(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "Gellix-Bold", size: 31)
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "Gellix-Bold", size: 31)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
-	static func globalH3Md(
+	static func h3Md(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "Gellix-Bold", size: 36)
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "Gellix-Bold", size: 36)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
-	static func globalH4Sm(
+	static func h4Sm(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "Gellix-Bold", size: 25)
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "Gellix-Bold", size: 25)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
-	static func globalH4Md(
+	static func h4Md(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "Gellix-Bold", size: 29)
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "Gellix-Bold", size: 29)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
-	static func globalH5Sm(
+	static func h5Sm(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "Gellix-Bold", size: 20)
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "Gellix-Bold", size: 20)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
-	static func globalH5Md(
+	static func h5Md(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "Gellix-Bold", size: 23)
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "Gellix-Bold", size: 23)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
-	static func globalH6Sm(
+	static func h6Sm(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "AktivGroteskApp-Bold", size: 20)
-			let paragraphStyle = NSMutableParagraphStyle()
-			paragraphStyle.lineHeightMultiple = 1.6
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-					.paragraphStyle: paragraphStyle,
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "AktivGroteskApp-Bold", size: 20)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		let paragraphStyle = NSMutableParagraphStyle()
+		paragraphStyle.lineHeightMultiple = 1.6
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+				.paragraphStyle: paragraphStyle,
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
-	static func globalH6Md(
+	static func h6Md(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "AktivGroteskApp-Bold", size: 23)
-			let paragraphStyle = NSMutableParagraphStyle()
-			paragraphStyle.lineHeightMultiple = 1.6
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-					.paragraphStyle: paragraphStyle,
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "AktivGroteskApp-Bold", size: 23)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		let paragraphStyle = NSMutableParagraphStyle()
+		paragraphStyle.lineHeightMultiple = 1.6
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+				.paragraphStyle: paragraphStyle,
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
-	static func globalH7Sm(
+	static func h7Sm(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "AktivGroteskApp-Bold", size: 18)
-			let paragraphStyle = NSMutableParagraphStyle()
-			paragraphStyle.lineHeightMultiple = 1.6
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-					.paragraphStyle: paragraphStyle,
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "AktivGroteskApp-Bold", size: 18)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		let paragraphStyle = NSMutableParagraphStyle()
+		paragraphStyle.lineHeightMultiple = 1.6
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+				.paragraphStyle: paragraphStyle,
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
-	static func globalH7Md(
+	static func h7Md(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "AktivGroteskApp-Bold", size: 21)
-			let paragraphStyle = NSMutableParagraphStyle()
-			paragraphStyle.lineHeightMultiple = 1.6
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-					.paragraphStyle: paragraphStyle,
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "AktivGroteskApp-Bold", size: 21)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		let paragraphStyle = NSMutableParagraphStyle()
+		paragraphStyle.lineHeightMultiple = 1.6
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+				.paragraphStyle: paragraphStyle,
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
-	static func globalBodyPrimaryRegularSmall(
+	static func bodyPrimaryRegularSmall(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "AktivGroteskApp-Regular", size: 16)
-			let paragraphStyle = NSMutableParagraphStyle()
-			paragraphStyle.lineHeightMultiple = 1.6
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-					.paragraphStyle: paragraphStyle,
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "AktivGroteskApp-Regular", size: 16)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		let paragraphStyle = NSMutableParagraphStyle()
+		paragraphStyle.lineHeightMultiple = 1.6
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+				.paragraphStyle: paragraphStyle,
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
-	static func globalBodyPrimaryRegularMedium(
+	static func bodyPrimaryRegularMedium(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "AktivGroteskApp-Regular", size: 18)
-			let paragraphStyle = NSMutableParagraphStyle()
-			paragraphStyle.lineHeightMultiple = 1.6
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-					.paragraphStyle: paragraphStyle,
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "AktivGroteskApp-Regular", size: 18)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		let paragraphStyle = NSMutableParagraphStyle()
+		paragraphStyle.lineHeightMultiple = 1.6
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+				.paragraphStyle: paragraphStyle,
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
-	static func globalBodyPrimaryBoldSmall(
+	static func bodyPrimaryBoldSmall(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "AktivGroteskApp-Bold", size: 16)
-			let paragraphStyle = NSMutableParagraphStyle()
-			paragraphStyle.lineHeightMultiple = 1.6
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-					.paragraphStyle: paragraphStyle,
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "AktivGroteskApp-Bold", size: 16)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		let paragraphStyle = NSMutableParagraphStyle()
+		paragraphStyle.lineHeightMultiple = 1.6
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+				.paragraphStyle: paragraphStyle,
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
-	static func globalBodyPrimaryBoldMedium(
+	static func bodyPrimaryBoldMedium(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "AktivGroteskApp-Bold", size: 18)
-			let paragraphStyle = NSMutableParagraphStyle()
-			paragraphStyle.lineHeightMultiple = 1.6
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-					.paragraphStyle: paragraphStyle,
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "AktivGroteskApp-Bold", size: 18)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		let paragraphStyle = NSMutableParagraphStyle()
+		paragraphStyle.lineHeightMultiple = 1.6
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+				.paragraphStyle: paragraphStyle,
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
-	static func globalBodySecondaryRegularSmall(
+	static func bodySecondaryRegularSmall(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "AktivGroteskApp-Regular", size: 14)
-			let paragraphStyle = NSMutableParagraphStyle()
-			paragraphStyle.lineHeightMultiple = 1.6
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-					.paragraphStyle: paragraphStyle,
-					.kern: 0.01,
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "AktivGroteskApp-Regular", size: 14)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		let paragraphStyle = NSMutableParagraphStyle()
+		paragraphStyle.lineHeightMultiple = 1.6
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+				.paragraphStyle: paragraphStyle,
+				.kern: 0.01,
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
-	static func globalBodySecondaryRegularMedium(
+	static func bodySecondaryRegularMedium(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "AktivGroteskApp-Regular", size: 16)
-			let paragraphStyle = NSMutableParagraphStyle()
-			paragraphStyle.lineHeightMultiple = 1.6
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-					.paragraphStyle: paragraphStyle,
-					.kern: 0.01,
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "AktivGroteskApp-Regular", size: 16)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		let paragraphStyle = NSMutableParagraphStyle()
+		paragraphStyle.lineHeightMultiple = 1.6
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+				.paragraphStyle: paragraphStyle,
+				.kern: 0.01,
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
-	static func globalBodySecondaryBoldSmall(
+	static func bodySecondaryBoldSmall(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "AktivGroteskApp-Bold", size: 14)
-			let paragraphStyle = NSMutableParagraphStyle()
-			paragraphStyle.lineHeightMultiple = 1.6
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-					.paragraphStyle: paragraphStyle,
-					.kern: 0.01,
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "AktivGroteskApp-Bold", size: 14)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		let paragraphStyle = NSMutableParagraphStyle()
+		paragraphStyle.lineHeightMultiple = 1.6
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+				.paragraphStyle: paragraphStyle,
+				.kern: 0.01,
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
-	static func globalBodySecondaryBoldMedium(
+	static func bodySecondaryBoldMedium(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "AktivGroteskApp-Bold", size: 16)
-			let paragraphStyle = NSMutableParagraphStyle()
-			paragraphStyle.lineHeightMultiple = 1.6
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-					.paragraphStyle: paragraphStyle,
-					.kern: 0.01,
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "AktivGroteskApp-Bold", size: 16)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		let paragraphStyle = NSMutableParagraphStyle()
+		paragraphStyle.lineHeightMultiple = 1.6
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+				.paragraphStyle: paragraphStyle,
+				.kern: 0.01,
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
-	static func globalBodyTertiaryRegularSmall(
+	static func bodyTertiaryRegularSmall(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "AktivGroteskApp-Regular", size: 12)
-			let paragraphStyle = NSMutableParagraphStyle()
-			paragraphStyle.lineHeightMultiple = 1.6
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-					.paragraphStyle: paragraphStyle,
-					.kern: 0.01,
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "AktivGroteskApp-Regular", size: 12)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		let paragraphStyle = NSMutableParagraphStyle()
+		paragraphStyle.lineHeightMultiple = 1.6
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+				.paragraphStyle: paragraphStyle,
+				.kern: 0.01,
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
-	static func globalBodyTertiaryRegularMedium(
+	static func bodyTertiaryRegularMedium(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "AktivGroteskApp-Regular", size: 14)
-			let paragraphStyle = NSMutableParagraphStyle()
-			paragraphStyle.lineHeightMultiple = 1.6
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-					.paragraphStyle: paragraphStyle,
-					.kern: 0.01,
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "AktivGroteskApp-Regular", size: 14)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		let paragraphStyle = NSMutableParagraphStyle()
+		paragraphStyle.lineHeightMultiple = 1.6
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+				.paragraphStyle: paragraphStyle,
+				.kern: 0.01,
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
-	static func globalBodyTertiaryBoldSmall(
+	static func bodyTertiaryBoldSmall(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "AktivGroteskApp-Bold", size: 12)
-			let paragraphStyle = NSMutableParagraphStyle()
-			paragraphStyle.lineHeightMultiple = 1.6
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-					.paragraphStyle: paragraphStyle,
-					.kern: 0.01,
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "AktivGroteskApp-Bold", size: 12)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		let paragraphStyle = NSMutableParagraphStyle()
+		paragraphStyle.lineHeightMultiple = 1.6
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+				.paragraphStyle: paragraphStyle,
+				.kern: 0.01,
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
-	static func globalBodyTertiaryBoldMedium(
+	static func bodyTertiaryBoldMedium(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "AktivGroteskApp-Bold", size: 14)
-			let paragraphStyle = NSMutableParagraphStyle()
-			paragraphStyle.lineHeightMultiple = 1.6
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-					.paragraphStyle: paragraphStyle,
-					.kern: 0.01,
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "AktivGroteskApp-Bold", size: 14)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		let paragraphStyle = NSMutableParagraphStyle()
+		paragraphStyle.lineHeightMultiple = 1.6
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+				.paragraphStyle: paragraphStyle,
+				.kern: 0.01,
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
-	static func globalButtonPrimary(
+	static func buttonPrimary(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "AktivGroteskApp-Bold", size: 16)
-			let paragraphStyle = NSMutableParagraphStyle()
-			paragraphStyle.lineHeightMultiple = 1.25
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-					.paragraphStyle: paragraphStyle,
-					.kern: 0.01,
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "AktivGroteskApp-Bold", size: 16)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		let paragraphStyle = NSMutableParagraphStyle()
+		paragraphStyle.lineHeightMultiple = 1.25
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+				.paragraphStyle: paragraphStyle,
+				.kern: 0.01,
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
-	static func globalButtonPillRegular(
+	static func buttonPillRegular(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "AktivGroteskApp-Regular", size: 14)
-			let paragraphStyle = NSMutableParagraphStyle()
-			paragraphStyle.lineHeightMultiple = 1.25
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-					.paragraphStyle: paragraphStyle,
-					.kern: 0.01,
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "AktivGroteskApp-Regular", size: 14)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		let paragraphStyle = NSMutableParagraphStyle()
+		paragraphStyle.lineHeightMultiple = 1.25
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+				.paragraphStyle: paragraphStyle,
+				.kern: 0.01,
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
-	static func globalButtonPillBold(
+	static func buttonPillBold(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "AktivGroteskApp-Bold", size: 14)
-			let paragraphStyle = NSMutableParagraphStyle()
-			paragraphStyle.lineHeightMultiple = 1.25
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-					.paragraphStyle: paragraphStyle,
-					.kern: 0.01,
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "AktivGroteskApp-Bold", size: 14)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		let paragraphStyle = NSMutableParagraphStyle()
+		paragraphStyle.lineHeightMultiple = 1.25
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+				.paragraphStyle: paragraphStyle,
+				.kern: 0.01,
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
-	static func globalTextFieldLabel(
+	static func textFieldLabel(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "AktivGroteskApp-Bold", size: 12)
-			let paragraphStyle = NSMutableParagraphStyle()
-			paragraphStyle.lineHeightMultiple = 1.6
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-					.paragraphStyle: paragraphStyle,
-					.kern: 0.01,
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "AktivGroteskApp-Bold", size: 12)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		let paragraphStyle = NSMutableParagraphStyle()
+		paragraphStyle.lineHeightMultiple = 1.6
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+				.paragraphStyle: paragraphStyle,
+				.kern: 0.01,
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
-	static func globalTextFieldInput(
+	static func textFieldInput(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "AktivGroteskApp-Regular", size: 16)
-			let paragraphStyle = NSMutableParagraphStyle()
-			paragraphStyle.lineHeightMultiple = 1.25
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-					.paragraphStyle: paragraphStyle,
-					.kern: 0.01,
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "AktivGroteskApp-Regular", size: 16)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		let paragraphStyle = NSMutableParagraphStyle()
+		paragraphStyle.lineHeightMultiple = 1.25
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+				.paragraphStyle: paragraphStyle,
+				.kern: 0.01,
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
-	static func globalTextFieldHelper(
+	static func textFieldHelper(
 		with text: String,
 		configurator: (UILabel) -> Void = { _ in }
 	) -> UILabel {
-		return UILabel(multiline: true) {
-			$0.font = UIFont(name: "AktivGroteskApp-Regular", size: 12)
-			let paragraphStyle = NSMutableParagraphStyle()
-			paragraphStyle.lineHeightMultiple = 1.6
-			$0.attributedText = NSAttributedString(
-				string: text,
-				attributes: [
-					.paragraphStyle: paragraphStyle,
-					.kern: 0.01,
-				]
-			)
-			$0.textAlignment = .natural
-			configurator($0)
-		}
+		let label = UILabel() 
+		label.font = UIFont(name: "AktivGroteskApp-Regular", size: 12)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		let paragraphStyle = NSMutableParagraphStyle()
+		paragraphStyle.lineHeightMultiple = 1.6
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+				.paragraphStyle: paragraphStyle,
+				.kern: 0.01,
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
 	}
 
 }
