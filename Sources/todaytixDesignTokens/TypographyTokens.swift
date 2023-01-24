@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Mon, 23 Jan 2023 20:22:55 GMT
+// Generated on Tue, 24 Jan 2023 15:52:25 GMT
 
 
 import UIKit
@@ -58,8 +58,7 @@ public extension UILabel {
 		label.lineBreakMode = .byWordWrapping
 		label.attributedText = NSAttributedString(
 			string: text,
-			attributes: [
-			]
+			attributes: [:]
 		)
 		label.textAlignment = .natural
 		configurator(label)
@@ -76,8 +75,7 @@ public extension UILabel {
 		label.lineBreakMode = .byWordWrapping
 		label.attributedText = NSAttributedString(
 			string: text,
-			attributes: [
-			]
+			attributes: [:]
 		)
 		label.textAlignment = .natural
 		configurator(label)
@@ -94,8 +92,7 @@ public extension UILabel {
 		label.lineBreakMode = .byWordWrapping
 		label.attributedText = NSAttributedString(
 			string: text,
-			attributes: [
-			]
+			attributes: [:]
 		)
 		label.textAlignment = .natural
 		configurator(label)
@@ -112,8 +109,7 @@ public extension UILabel {
 		label.lineBreakMode = .byWordWrapping
 		label.attributedText = NSAttributedString(
 			string: text,
-			attributes: [
-			]
+			attributes: [:]
 		)
 		label.textAlignment = .natural
 		configurator(label)
@@ -130,8 +126,7 @@ public extension UILabel {
 		label.lineBreakMode = .byWordWrapping
 		label.attributedText = NSAttributedString(
 			string: text,
-			attributes: [
-			]
+			attributes: [:]
 		)
 		label.textAlignment = .natural
 		configurator(label)
@@ -148,8 +143,7 @@ public extension UILabel {
 		label.lineBreakMode = .byWordWrapping
 		label.attributedText = NSAttributedString(
 			string: text,
-			attributes: [
-			]
+			attributes: [:]
 		)
 		label.textAlignment = .natural
 		configurator(label)
@@ -166,8 +160,7 @@ public extension UILabel {
 		label.lineBreakMode = .byWordWrapping
 		label.attributedText = NSAttributedString(
 			string: text,
-			attributes: [
-			]
+			attributes: [:]
 		)
 		label.textAlignment = .natural
 		configurator(label)
@@ -184,8 +177,7 @@ public extension UILabel {
 		label.lineBreakMode = .byWordWrapping
 		label.attributedText = NSAttributedString(
 			string: text,
-			attributes: [
-			]
+			attributes: [:]
 		)
 		label.textAlignment = .natural
 		configurator(label)
@@ -374,6 +366,7 @@ public extension UILabel {
 			string: text,
 			attributes: [
 				.paragraphStyle: paragraphStyle,
+			
 				.kern: 0.01,
 			]
 		)
@@ -396,6 +389,7 @@ public extension UILabel {
 			string: text,
 			attributes: [
 				.paragraphStyle: paragraphStyle,
+			
 				.kern: 0.01,
 			]
 		)
@@ -418,6 +412,7 @@ public extension UILabel {
 			string: text,
 			attributes: [
 				.paragraphStyle: paragraphStyle,
+			
 				.kern: 0.01,
 			]
 		)
@@ -440,6 +435,7 @@ public extension UILabel {
 			string: text,
 			attributes: [
 				.paragraphStyle: paragraphStyle,
+			
 				.kern: 0.01,
 			]
 		)
@@ -462,6 +458,7 @@ public extension UILabel {
 			string: text,
 			attributes: [
 				.paragraphStyle: paragraphStyle,
+			
 				.kern: 0.01,
 			]
 		)
@@ -484,6 +481,7 @@ public extension UILabel {
 			string: text,
 			attributes: [
 				.paragraphStyle: paragraphStyle,
+			
 				.kern: 0.01,
 			]
 		)
@@ -506,6 +504,7 @@ public extension UILabel {
 			string: text,
 			attributes: [
 				.paragraphStyle: paragraphStyle,
+			
 				.kern: 0.01,
 			]
 		)
@@ -528,6 +527,7 @@ public extension UILabel {
 			string: text,
 			attributes: [
 				.paragraphStyle: paragraphStyle,
+			
 				.kern: 0.01,
 			]
 		)
@@ -550,6 +550,7 @@ public extension UILabel {
 			string: text,
 			attributes: [
 				.paragraphStyle: paragraphStyle,
+			
 				.kern: 0.01,
 			]
 		)
@@ -572,6 +573,7 @@ public extension UILabel {
 			string: text,
 			attributes: [
 				.paragraphStyle: paragraphStyle,
+			
 				.kern: 0.01,
 			]
 		)
@@ -594,6 +596,7 @@ public extension UILabel {
 			string: text,
 			attributes: [
 				.paragraphStyle: paragraphStyle,
+			
 				.kern: 0.01,
 			]
 		)
@@ -616,6 +619,7 @@ public extension UILabel {
 			string: text,
 			attributes: [
 				.paragraphStyle: paragraphStyle,
+			
 				.kern: 0.01,
 			]
 		)
@@ -638,6 +642,7 @@ public extension UILabel {
 			string: text,
 			attributes: [
 				.paragraphStyle: paragraphStyle,
+			
 				.kern: 0.01,
 			]
 		)
@@ -660,6 +665,7 @@ public extension UILabel {
 			string: text,
 			attributes: [
 				.paragraphStyle: paragraphStyle,
+			
 				.kern: 0.01,
 			]
 		)
