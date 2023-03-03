@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Wed, 15 Feb 2023 22:20:52 GMT
+// Generated on Thu, 02 Mar 2023 18:10:43 GMT
 
 
 import UIKit
@@ -667,6 +667,75 @@ public extension UILabel {
 				.paragraphStyle: paragraphStyle,
 			
 				.kern: 0.01,
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
+	}
+
+	static func calendarDaysRow(
+		with text: String,
+		configurator: (UILabel) -> Void = { _ in }
+	) -> UILabel {
+		let label = UILabel() 
+		label.font = UIFont(name: "AktivGroteskApp-Bold", size: 12)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		let paragraphStyle = NSMutableParagraphStyle()
+		paragraphStyle.lineHeightMultiple = 1
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+				.paragraphStyle: paragraphStyle,
+			
+				.kern: ,
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
+	}
+
+	static func calendarDayPicker(
+		with text: String,
+		configurator: (UILabel) -> Void = { _ in }
+	) -> UILabel {
+		let label = UILabel() 
+		label.font = UIFont(name: "AktivGroteskApp-Regular", size: 18)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		let paragraphStyle = NSMutableParagraphStyle()
+		paragraphStyle.lineHeightMultiple = 1
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+				.paragraphStyle: paragraphStyle,
+			
+				.kern: ,
+			]
+		)
+		label.textAlignment = .natural
+		configurator(label)
+		return label
+	}
+
+	static func calendarPrice(
+		with text: String,
+		configurator: (UILabel) -> Void = { _ in }
+	) -> UILabel {
+		let label = UILabel() 
+		label.font = UIFont(name: "AktivGroteskApp-Regular", size: 12)
+		label.numberOfLines = 0
+		label.lineBreakMode = .byWordWrapping
+		let paragraphStyle = NSMutableParagraphStyle()
+		paragraphStyle.lineHeightMultiple = 1
+		label.attributedText = NSAttributedString(
+			string: text,
+			attributes: [
+				.paragraphStyle: paragraphStyle,
+			
+				.kern: ,
 			]
 		)
 		label.textAlignment = .natural
