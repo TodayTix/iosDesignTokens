@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Thu, 02 Mar 2023 18:10:43 GMT
+// Generated on Wed, 08 Mar 2023 21:09:30 GMT
 
 
 import UIKit
@@ -689,7 +689,7 @@ public extension UILabel {
 			attributes: [
 				.paragraphStyle: paragraphStyle,
 			
-				.kern: ,
+				.kern: 0,
 			]
 		)
 		label.textAlignment = .natural
@@ -712,7 +712,7 @@ public extension UILabel {
 			attributes: [
 				.paragraphStyle: paragraphStyle,
 			
-				.kern: ,
+				.kern: 0,
 			]
 		)
 		label.textAlignment = .natural
@@ -735,7 +735,7 @@ public extension UILabel {
 			attributes: [
 				.paragraphStyle: paragraphStyle,
 			
-				.kern: ,
+				.kern: 0,
 			]
 		)
 		label.textAlignment = .natural
