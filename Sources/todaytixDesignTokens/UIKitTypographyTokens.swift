@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Fri, 17 Mar 2023 18:11:20 GMT
+// Generated on Wed, 12 Apr 2023 19:08:52 GMT
 
 
 import UIKit
@@ -15,7 +15,7 @@ public extension UILabel {
 		label.numberOfLines = 0
 		label.lineBreakMode = .byWordWrapping
 		let paragraphStyle = NSMutableParagraphStyle()
-		paragraphStyle.lineHeightMultiple = 1.25
+		paragraphStyle.lineSpacing = 6.1
 		label.attributedText = NSAttributedString(
 			string: text,
 			attributes: [
@@ -36,7 +36,7 @@ public extension UILabel {
 		label.numberOfLines = 0
 		label.lineBreakMode = .byWordWrapping
 		let paragraphStyle = NSMutableParagraphStyle()
-		paragraphStyle.lineHeightMultiple = 1.25
+		paragraphStyle.lineSpacing = 7
 		label.attributedText = NSAttributedString(
 			string: text,
 			attributes: [
@@ -193,7 +193,7 @@ public extension UILabel {
 		label.numberOfLines = 0
 		label.lineBreakMode = .byWordWrapping
 		let paragraphStyle = NSMutableParagraphStyle()
-		paragraphStyle.lineHeightMultiple = 1.6
+		paragraphStyle.lineSpacing = 6
 		label.attributedText = NSAttributedString(
 			string: text,
 			attributes: [
@@ -214,7 +214,7 @@ public extension UILabel {
 		label.numberOfLines = 0
 		label.lineBreakMode = .byWordWrapping
 		let paragraphStyle = NSMutableParagraphStyle()
-		paragraphStyle.lineHeightMultiple = 1.6
+		paragraphStyle.lineSpacing = 6.9
 		label.attributedText = NSAttributedString(
 			string: text,
 			attributes: [
@@ -235,7 +235,7 @@ public extension UILabel {
 		label.numberOfLines = 0
 		label.lineBreakMode = .byWordWrapping
 		let paragraphStyle = NSMutableParagraphStyle()
-		paragraphStyle.lineHeightMultiple = 1.6
+		paragraphStyle.lineSpacing = 5.4
 		label.attributedText = NSAttributedString(
 			string: text,
 			attributes: [
@@ -256,7 +256,7 @@ public extension UILabel {
 		label.numberOfLines = 0
 		label.lineBreakMode = .byWordWrapping
 		let paragraphStyle = NSMutableParagraphStyle()
-		paragraphStyle.lineHeightMultiple = 1.6
+		paragraphStyle.lineSpacing = 6.3
 		label.attributedText = NSAttributedString(
 			string: text,
 			attributes: [
@@ -277,7 +277,7 @@ public extension UILabel {
 		label.numberOfLines = 0
 		label.lineBreakMode = .byWordWrapping
 		let paragraphStyle = NSMutableParagraphStyle()
-		paragraphStyle.lineHeightMultiple = 1.6
+		paragraphStyle.lineSpacing = 4.8
 		label.attributedText = NSAttributedString(
 			string: text,
 			attributes: [
@@ -298,7 +298,7 @@ public extension UILabel {
 		label.numberOfLines = 0
 		label.lineBreakMode = .byWordWrapping
 		let paragraphStyle = NSMutableParagraphStyle()
-		paragraphStyle.lineHeightMultiple = 1.6
+		paragraphStyle.lineSpacing = 5.4
 		label.attributedText = NSAttributedString(
 			string: text,
 			attributes: [
@@ -319,7 +319,7 @@ public extension UILabel {
 		label.numberOfLines = 0
 		label.lineBreakMode = .byWordWrapping
 		let paragraphStyle = NSMutableParagraphStyle()
-		paragraphStyle.lineHeightMultiple = 1.6
+		paragraphStyle.lineSpacing = 4.8
 		label.attributedText = NSAttributedString(
 			string: text,
 			attributes: [
@@ -340,7 +340,7 @@ public extension UILabel {
 		label.numberOfLines = 0
 		label.lineBreakMode = .byWordWrapping
 		let paragraphStyle = NSMutableParagraphStyle()
-		paragraphStyle.lineHeightMultiple = 1.6
+		paragraphStyle.lineSpacing = 5.4
 		label.attributedText = NSAttributedString(
 			string: text,
 			attributes: [
@@ -361,12 +361,11 @@ public extension UILabel {
 		label.numberOfLines = 0
 		label.lineBreakMode = .byWordWrapping
 		let paragraphStyle = NSMutableParagraphStyle()
-		paragraphStyle.lineHeightMultiple = 1.6
+		paragraphStyle.lineSpacing = 4.2
 		label.attributedText = NSAttributedString(
 			string: text,
 			attributes: [
 				.paragraphStyle: paragraphStyle,
-			
 				.kern: 0.01,
 			]
 		)
@@ -384,12 +383,11 @@ public extension UILabel {
 		label.numberOfLines = 0
 		label.lineBreakMode = .byWordWrapping
 		let paragraphStyle = NSMutableParagraphStyle()
-		paragraphStyle.lineHeightMultiple = 1.6
+		paragraphStyle.lineSpacing = 4.8
 		label.attributedText = NSAttributedString(
 			string: text,
 			attributes: [
 				.paragraphStyle: paragraphStyle,
-			
 				.kern: 0.01,
 			]
 		)
@@ -407,12 +405,11 @@ public extension UILabel {
 		label.numberOfLines = 0
 		label.lineBreakMode = .byWordWrapping
 		let paragraphStyle = NSMutableParagraphStyle()
-		paragraphStyle.lineHeightMultiple = 1.6
+		paragraphStyle.lineSpacing = 4.2
 		label.attributedText = NSAttributedString(
 			string: text,
 			attributes: [
 				.paragraphStyle: paragraphStyle,
-			
 				.kern: 0.01,
 			]
 		)
@@ -430,12 +427,11 @@ public extension UILabel {
 		label.numberOfLines = 0
 		label.lineBreakMode = .byWordWrapping
 		let paragraphStyle = NSMutableParagraphStyle()
-		paragraphStyle.lineHeightMultiple = 1.6
+		paragraphStyle.lineSpacing = 4.8
 		label.attributedText = NSAttributedString(
 			string: text,
 			attributes: [
 				.paragraphStyle: paragraphStyle,
-			
 				.kern: 0.01,
 			]
 		)
@@ -453,12 +449,11 @@ public extension UILabel {
 		label.numberOfLines = 0
 		label.lineBreakMode = .byWordWrapping
 		let paragraphStyle = NSMutableParagraphStyle()
-		paragraphStyle.lineHeightMultiple = 1.6
+		paragraphStyle.lineSpacing = 3.6
 		label.attributedText = NSAttributedString(
 			string: text,
 			attributes: [
 				.paragraphStyle: paragraphStyle,
-			
 				.kern: 0.01,
 			]
 		)
@@ -476,12 +471,11 @@ public extension UILabel {
 		label.numberOfLines = 0
 		label.lineBreakMode = .byWordWrapping
 		let paragraphStyle = NSMutableParagraphStyle()
-		paragraphStyle.lineHeightMultiple = 1.6
+		paragraphStyle.lineSpacing = 4.2
 		label.attributedText = NSAttributedString(
 			string: text,
 			attributes: [
 				.paragraphStyle: paragraphStyle,
-			
 				.kern: 0.01,
 			]
 		)
@@ -499,12 +493,11 @@ public extension UILabel {
 		label.numberOfLines = 0
 		label.lineBreakMode = .byWordWrapping
 		let paragraphStyle = NSMutableParagraphStyle()
-		paragraphStyle.lineHeightMultiple = 1.6
+		paragraphStyle.lineSpacing = 3.6
 		label.attributedText = NSAttributedString(
 			string: text,
 			attributes: [
 				.paragraphStyle: paragraphStyle,
-			
 				.kern: 0.01,
 			]
 		)
@@ -522,12 +515,11 @@ public extension UILabel {
 		label.numberOfLines = 0
 		label.lineBreakMode = .byWordWrapping
 		let paragraphStyle = NSMutableParagraphStyle()
-		paragraphStyle.lineHeightMultiple = 1.6
+		paragraphStyle.lineSpacing = 4.2
 		label.attributedText = NSAttributedString(
 			string: text,
 			attributes: [
 				.paragraphStyle: paragraphStyle,
-			
 				.kern: 0.01,
 			]
 		)
@@ -545,12 +537,11 @@ public extension UILabel {
 		label.numberOfLines = 0
 		label.lineBreakMode = .byWordWrapping
 		let paragraphStyle = NSMutableParagraphStyle()
-		paragraphStyle.lineHeightMultiple = 1.25
+		paragraphStyle.lineSpacing = 2
 		label.attributedText = NSAttributedString(
 			string: text,
 			attributes: [
 				.paragraphStyle: paragraphStyle,
-			
 				.kern: 0.01,
 			]
 		)
@@ -568,12 +559,11 @@ public extension UILabel {
 		label.numberOfLines = 0
 		label.lineBreakMode = .byWordWrapping
 		let paragraphStyle = NSMutableParagraphStyle()
-		paragraphStyle.lineHeightMultiple = 1.25
+		paragraphStyle.lineSpacing = 1.8
 		label.attributedText = NSAttributedString(
 			string: text,
 			attributes: [
 				.paragraphStyle: paragraphStyle,
-			
 				.kern: 0.01,
 			]
 		)
@@ -591,12 +581,11 @@ public extension UILabel {
 		label.numberOfLines = 0
 		label.lineBreakMode = .byWordWrapping
 		let paragraphStyle = NSMutableParagraphStyle()
-		paragraphStyle.lineHeightMultiple = 1.25
+		paragraphStyle.lineSpacing = 1.8
 		label.attributedText = NSAttributedString(
 			string: text,
 			attributes: [
 				.paragraphStyle: paragraphStyle,
-			
 				.kern: 0.01,
 			]
 		)
@@ -614,12 +603,11 @@ public extension UILabel {
 		label.numberOfLines = 0
 		label.lineBreakMode = .byWordWrapping
 		let paragraphStyle = NSMutableParagraphStyle()
-		paragraphStyle.lineHeightMultiple = 1.6
+		paragraphStyle.lineSpacing = 3.6
 		label.attributedText = NSAttributedString(
 			string: text,
 			attributes: [
 				.paragraphStyle: paragraphStyle,
-			
 				.kern: 0.01,
 			]
 		)
@@ -637,12 +625,11 @@ public extension UILabel {
 		label.numberOfLines = 0
 		label.lineBreakMode = .byWordWrapping
 		let paragraphStyle = NSMutableParagraphStyle()
-		paragraphStyle.lineHeightMultiple = 1.25
+		paragraphStyle.lineSpacing = 2
 		label.attributedText = NSAttributedString(
 			string: text,
 			attributes: [
 				.paragraphStyle: paragraphStyle,
-			
 				.kern: 0.01,
 			]
 		)
@@ -660,12 +647,11 @@ public extension UILabel {
 		label.numberOfLines = 0
 		label.lineBreakMode = .byWordWrapping
 		let paragraphStyle = NSMutableParagraphStyle()
-		paragraphStyle.lineHeightMultiple = 1.6
+		paragraphStyle.lineSpacing = 3.6
 		label.attributedText = NSAttributedString(
 			string: text,
 			attributes: [
 				.paragraphStyle: paragraphStyle,
-			
 				.kern: 0.01,
 			]
 		)
@@ -683,12 +669,11 @@ public extension UILabel {
 		label.numberOfLines = 0
 		label.lineBreakMode = .byWordWrapping
 		let paragraphStyle = NSMutableParagraphStyle()
-		paragraphStyle.lineHeightMultiple = 1
+		paragraphStyle.lineSpacing = 0
 		label.attributedText = NSAttributedString(
 			string: text,
 			attributes: [
 				.paragraphStyle: paragraphStyle,
-			
 				.kern: 0,
 			]
 		)
@@ -706,12 +691,11 @@ public extension UILabel {
 		label.numberOfLines = 0
 		label.lineBreakMode = .byWordWrapping
 		let paragraphStyle = NSMutableParagraphStyle()
-		paragraphStyle.lineHeightMultiple = 1
+		paragraphStyle.lineSpacing = 0
 		label.attributedText = NSAttributedString(
 			string: text,
 			attributes: [
 				.paragraphStyle: paragraphStyle,
-			
 				.kern: 0,
 			]
 		)
@@ -729,12 +713,11 @@ public extension UILabel {
 		label.numberOfLines = 0
 		label.lineBreakMode = .byWordWrapping
 		let paragraphStyle = NSMutableParagraphStyle()
-		paragraphStyle.lineHeightMultiple = 1
+		paragraphStyle.lineSpacing = 0
 		label.attributedText = NSAttributedString(
 			string: text,
 			attributes: [
 				.paragraphStyle: paragraphStyle,
-			
 				.kern: 0,
 			]
 		)
