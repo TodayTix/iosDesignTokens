@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Fri, 14 Apr 2023 15:51:09 GMT
+// Generated on Fri, 11 Aug 2023 19:22:56 GMT
 
 
 import SwiftUI
@@ -9,8 +9,8 @@ public extension LinearGradient {
 	static func lightButtonButtonPrimary() -> LinearGradient {
 		return LinearGradient(
 			colors: [
-				Color(red: 0.871, green: 0.149, blue: 0.318, opacity: 1),
-				Color(red: 0.882, green: 0.145, blue: 0.157, opacity: 1)
+				Color(red: 1.000, green: 0.059, blue: 0.341, opacity: 1),
+				Color(red: 1.000, green: 0.071, blue: 0.149, opacity: 1)
 			],
 			startPoint: UnitPoint(x: 0.05, y: 0.5),
 			endPoint: UnitPoint(x: 0.95, y: 0.5)
@@ -20,8 +20,8 @@ public extension LinearGradient {
 	static func lightMiscellaneousInteractive() -> LinearGradient {
 		return LinearGradient(
 			colors: [
-				Color(red: 0.871, green: 0.149, blue: 0.318, opacity: 1),
-				Color(red: 0.882, green: 0.145, blue: 0.157, opacity: 1)
+				Color(red: 1.000, green: 0.059, blue: 0.341, opacity: 1),
+				Color(red: 1.000, green: 0.071, blue: 0.149, opacity: 1)
 			],
 			startPoint: UnitPoint(x: 0.05, y: 0.5),
 			endPoint: UnitPoint(x: 0.95, y: 0.5)
@@ -31,8 +31,8 @@ public extension LinearGradient {
 	static func lightBackgroundBackgroundBrand() -> LinearGradient {
 		return LinearGradient(
 			colors: [
-				Color(red: 0.871, green: 0.149, blue: 0.318, opacity: 1),
-				Color(red: 0.882, green: 0.145, blue: 0.157, opacity: 1)
+				Color(red: 1.000, green: 0.059, blue: 0.341, opacity: 1),
+				Color(red: 1.000, green: 0.071, blue: 0.149, opacity: 1)
 			],
 			startPoint: UnitPoint(x: 0.05, y: 0.5),
 			endPoint: UnitPoint(x: 0.95, y: 0.5)
@@ -42,8 +42,8 @@ public extension LinearGradient {
 	static func lightBorderBorderInteractive() -> LinearGradient {
 		return LinearGradient(
 			colors: [
-				Color(red: 0.871, green: 0.149, blue: 0.318, opacity: 1),
-				Color(red: 0.882, green: 0.145, blue: 0.157, opacity: 1)
+				Color(red: 1.000, green: 0.059, blue: 0.341, opacity: 1),
+				Color(red: 1.000, green: 0.071, blue: 0.149, opacity: 1)
 			],
 			startPoint: UnitPoint(x: 0.05, y: 0.5),
 			endPoint: UnitPoint(x: 0.95, y: 0.5)
@@ -53,8 +53,8 @@ public extension LinearGradient {
 	static func lightIconIconBrand() -> LinearGradient {
 		return LinearGradient(
 			colors: [
-				Color(red: 0.871, green: 0.149, blue: 0.318, opacity: 1),
-				Color(red: 0.882, green: 0.145, blue: 0.157, opacity: 1)
+				Color(red: 1.000, green: 0.059, blue: 0.341, opacity: 1),
+				Color(red: 1.000, green: 0.071, blue: 0.149, opacity: 1)
 			],
 			startPoint: UnitPoint(x: 0.05, y: 0.5),
 			endPoint: UnitPoint(x: 0.95, y: 0.5)
@@ -64,8 +64,8 @@ public extension LinearGradient {
 	static func lightTagBrandBackground() -> LinearGradient {
 		return LinearGradient(
 			colors: [
-				Color(red: 0.871, green: 0.149, blue: 0.318, opacity: 1),
-				Color(red: 0.882, green: 0.145, blue: 0.157, opacity: 1)
+				Color(red: 1.000, green: 0.059, blue: 0.341, opacity: 1),
+				Color(red: 1.000, green: 0.071, blue: 0.149, opacity: 1)
 			],
 			startPoint: UnitPoint(x: 0.05, y: 0.5),
 			endPoint: UnitPoint(x: 0.95, y: 0.5)

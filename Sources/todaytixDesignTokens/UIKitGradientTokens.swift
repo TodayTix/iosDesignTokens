@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Fri, 14 Apr 2023 15:51:09 GMT
+// Generated on Fri, 11 Aug 2023 19:22:56 GMT
 
 
 import UIKit
@@ -8,7 +8,7 @@ import UIKit
 public extension CAGradientLayer {
 	static func lightButtonButtonPrimary() -> CAGradientLayer {
 		let gradientLayer = CAGradientLayer()
-		gradientLayer.colors = [UIColor(red: 0.871, green: 0.149, blue: 0.318, alpha: 1).cgColor, UIColor(red: 0.882, green: 0.145, blue: 0.157, alpha: 1).cgColor]
+		gradientLayer.colors = [UIColor(red: 1.000, green: 0.059, blue: 0.341, alpha: 1).cgColor, UIColor(red: 1.000, green: 0.071, blue: 0.149, alpha: 1).cgColor]
 		gradientLayer.startPoint = CGPoint(x: 0.05, y: 0.5)
 		gradientLayer.endPoint = CGPoint(x: 0.95, y: 0.5)
 		return gradientLayer
@@ -16,7 +16,7 @@ public extension CAGradientLayer {
 
 	static func lightMiscellaneousInteractive() -> CAGradientLayer {
 		let gradientLayer = CAGradientLayer()
-		gradientLayer.colors = [UIColor(red: 0.871, green: 0.149, blue: 0.318, alpha: 1).cgColor, UIColor(red: 0.882, green: 0.145, blue: 0.157, alpha: 1).cgColor]
+		gradientLayer.colors = [UIColor(red: 1.000, green: 0.059, blue: 0.341, alpha: 1).cgColor, UIColor(red: 1.000, green: 0.071, blue: 0.149, alpha: 1).cgColor]
 		gradientLayer.startPoint = CGPoint(x: 0.05, y: 0.5)
 		gradientLayer.endPoint = CGPoint(x: 0.95, y: 0.5)
 		return gradientLayer
@@ -24,7 +24,7 @@ public extension CAGradientLayer {
 
 	static func lightBackgroundBackgroundBrand() -> CAGradientLayer {
 		let gradientLayer = CAGradientLayer()
-		gradientLayer.colors = [UIColor(red: 0.871, green: 0.149, blue: 0.318, alpha: 1).cgColor, UIColor(red: 0.882, green: 0.145, blue: 0.157, alpha: 1).cgColor]
+		gradientLayer.colors = [UIColor(red: 1.000, green: 0.059, blue: 0.341, alpha: 1).cgColor, UIColor(red: 1.000, green: 0.071, blue: 0.149, alpha: 1).cgColor]
 		gradientLayer.startPoint = CGPoint(x: 0.05, y: 0.5)
 		gradientLayer.endPoint = CGPoint(x: 0.95, y: 0.5)
 		return gradientLayer
@@ -32,7 +32,7 @@ public extension CAGradientLayer {
 
 	static func lightBorderBorderInteractive() -> CAGradientLayer {
 		let gradientLayer = CAGradientLayer()
-		gradientLayer.colors = [UIColor(red: 0.871, green: 0.149, blue: 0.318, alpha: 1).cgColor, UIColor(red: 0.882, green: 0.145, blue: 0.157, alpha: 1).cgColor]
+		gradientLayer.colors = [UIColor(red: 1.000, green: 0.059, blue: 0.341, alpha: 1).cgColor, UIColor(red: 1.000, green: 0.071, blue: 0.149, alpha: 1).cgColor]
 		gradientLayer.startPoint = CGPoint(x: 0.05, y: 0.5)
 		gradientLayer.endPoint = CGPoint(x: 0.95, y: 0.5)
 		return gradientLayer
@@ -40,7 +40,7 @@ public extension CAGradientLayer {
 
 	static func lightIconIconBrand() -> CAGradientLayer {
 		let gradientLayer = CAGradientLayer()
-		gradientLayer.colors = [UIColor(red: 0.871, green: 0.149, blue: 0.318, alpha: 1).cgColor, UIColor(red: 0.882, green: 0.145, blue: 0.157, alpha: 1).cgColor]
+		gradientLayer.colors = [UIColor(red: 1.000, green: 0.059, blue: 0.341, alpha: 1).cgColor, UIColor(red: 1.000, green: 0.071, blue: 0.149, alpha: 1).cgColor]
 		gradientLayer.startPoint = CGPoint(x: 0.05, y: 0.5)
 		gradientLayer.endPoint = CGPoint(x: 0.95, y: 0.5)
 		return gradientLayer
@@ -48,7 +48,7 @@ public extension CAGradientLayer {
 
 	static func lightTagBrandBackground() -> CAGradientLayer {
 		let gradientLayer = CAGradientLayer()
-		gradientLayer.colors = [UIColor(red: 0.871, green: 0.149, blue: 0.318, alpha: 1).cgColor, UIColor(red: 0.882, green: 0.145, blue: 0.157, alpha: 1).cgColor]
+		gradientLayer.colors = [UIColor(red: 1.000, green: 0.059, blue: 0.341, alpha: 1).cgColor, UIColor(red: 1.000, green: 0.071, blue: 0.149, alpha: 1).cgColor]
 		gradientLayer.startPoint = CGPoint(x: 0.05, y: 0.5)
 		gradientLayer.endPoint = CGPoint(x: 0.95, y: 0.5)
 		return gradientLayer
