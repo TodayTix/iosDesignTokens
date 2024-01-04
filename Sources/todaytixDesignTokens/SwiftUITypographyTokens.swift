@@ -1,111 +1,130 @@
 
 // Do not edit directly
-// Generated on Mon, 04 Dec 2023 16:05:13 GMT
+// Generated on Thu, 04 Jan 2024 21:22:15 GMT
 
 
 import SwiftUI
 
 public extension Text {
+	@available(*, deprecated)
 	static func h1Sm(with text: String) -> some View {
 		return Text(text)
 			.lineSpacing(6.1)
 			.font(Font.custom("Gellix-Bold", size: 49))
 	}
 
+	@available(*, deprecated)
 	static func h1Md(with text: String) -> some View {
 		return Text(text)
 			.lineSpacing(7)
 			.font(Font.custom("Gellix-Bold", size: 56))
 	}
 
+	@available(*, deprecated)
 	static func h2Sm(with text: String) -> some View {
 		return Text(text)
 			.font(Font.custom("Gellix-Bold", size: 39))
 	}
 
+	@available(*, deprecated)
 	static func h2Md(with text: String) -> some View {
 		return Text(text)
 			.font(Font.custom("Gellix-Bold", size: 45))
 	}
 
+	@available(*, deprecated)
 	static func h3Sm(with text: String) -> some View {
 		return Text(text)
 			.font(Font.custom("Gellix-Bold", size: 31))
 	}
 
+	@available(*, deprecated)
 	static func h3Md(with text: String) -> some View {
 		return Text(text)
 			.font(Font.custom("Gellix-Bold", size: 36))
 	}
 
+	@available(*, deprecated)
 	static func h4Sm(with text: String) -> some View {
 		return Text(text)
 			.font(Font.custom("Gellix-Bold", size: 25))
 	}
 
+	@available(*, deprecated)
 	static func h4Md(with text: String) -> some View {
 		return Text(text)
 			.font(Font.custom("Gellix-Bold", size: 29))
 	}
 
+	@available(*, deprecated)
 	static func h5Sm(with text: String) -> some View {
 		return Text(text)
 			.font(Font.custom("Gellix-Bold", size: 20))
 	}
 
+	@available(*, deprecated)
 	static func h5Md(with text: String) -> some View {
 		return Text(text)
 			.font(Font.custom("Gellix-Bold", size: 23))
 	}
 
+	@available(*, deprecated)
 	static func h6Sm(with text: String) -> some View {
 		return Text(text)
 			.lineSpacing(6)
 			.font(Font.custom("AktivGroteskApp-Bold", size: 20))
 	}
 
+	@available(*, deprecated)
 	static func h6Md(with text: String) -> some View {
 		return Text(text)
 			.lineSpacing(6.9)
 			.font(Font.custom("AktivGroteskApp-Bold", size: 23))
 	}
 
+	@available(*, deprecated)
 	static func h7Sm(with text: String) -> some View {
 		return Text(text)
 			.lineSpacing(5.4)
 			.font(Font.custom("AktivGroteskApp-Bold", size: 18))
 	}
 
+	@available(*, deprecated)
 	static func h7Md(with text: String) -> some View {
 		return Text(text)
 			.lineSpacing(6.3)
 			.font(Font.custom("AktivGroteskApp-Bold", size: 21))
 	}
 
+	@available(*, deprecated)
 	static func bodyPrimaryRegularSmall(with text: String) -> some View {
 		return Text(text)
 			.lineSpacing(4.8)
 			.font(Font.custom("AktivGroteskApp-Regular", size: 16))
 	}
 
+	@available(*, deprecated)
 	static func bodyPrimaryRegularMedium(with text: String) -> some View {
 		return Text(text)
 			.lineSpacing(5.4)
 			.font(Font.custom("AktivGroteskApp-Regular", size: 18))
 	}
 
+	@available(*, deprecated)
 	static func bodyPrimaryBoldSmall(with text: String) -> some View {
 		return Text(text)
 			.lineSpacing(4.8)
 			.font(Font.custom("AktivGroteskApp-Bold", size: 16))
 	}
 
+	@available(*, deprecated)
 	static func bodyPrimaryBoldMedium(with text: String) -> some View {
 		return Text(text)
 			.lineSpacing(5.4)
 			.font(Font.custom("AktivGroteskApp-Bold", size: 18))
 	}
 
+	@available(*, deprecated)
 	static func bodySecondaryRegularSmall(with text: String) -> some View {
 		return Text(text)
 			.kerning(0.01)
@@ -113,6 +132,7 @@ public extension Text {
 			.font(Font.custom("AktivGroteskApp-Regular", size: 14))
 	}
 
+	@available(*, deprecated)
 	static func bodySecondaryRegularMedium(with text: String) -> some View {
 		return Text(text)
 			.kerning(0.01)
@@ -120,6 +140,7 @@ public extension Text {
 			.font(Font.custom("AktivGroteskApp-Regular", size: 16))
 	}
 
+	@available(*, deprecated)
 	static func bodySecondaryBoldSmall(with text: String) -> some View {
 		return Text(text)
 			.kerning(0.01)
@@ -127,6 +148,7 @@ public extension Text {
 			.font(Font.custom("AktivGroteskApp-Bold", size: 14))
 	}
 
+	@available(*, deprecated)
 	static func bodySecondaryBoldMedium(with text: String) -> some View {
 		return Text(text)
 			.kerning(0.01)
@@ -134,6 +156,7 @@ public extension Text {
 			.font(Font.custom("AktivGroteskApp-Bold", size: 16))
 	}
 
+	@available(*, deprecated)
 	static func bodyTertiaryRegularSmall(with text: String) -> some View {
 		return Text(text)
 			.kerning(0.01)
@@ -141,6 +164,7 @@ public extension Text {
 			.font(Font.custom("AktivGroteskApp-Regular", size: 12))
 	}
 
+	@available(*, deprecated)
 	static func bodyTertiaryRegularMedium(with text: String) -> some View {
 		return Text(text)
 			.kerning(0.01)
@@ -148,6 +172,7 @@ public extension Text {
 			.font(Font.custom("AktivGroteskApp-Regular", size: 14))
 	}
 
+	@available(*, deprecated)
 	static func bodyTertiaryBoldSmall(with text: String) -> some View {
 		return Text(text)
 			.kerning(0.01)
@@ -155,6 +180,7 @@ public extension Text {
 			.font(Font.custom("AktivGroteskApp-Bold", size: 12))
 	}
 
+	@available(*, deprecated)
 	static func bodyTertiaryBoldMedium(with text: String) -> some View {
 		return Text(text)
 			.kerning(0.01)
@@ -162,6 +188,7 @@ public extension Text {
 			.font(Font.custom("AktivGroteskApp-Bold", size: 14))
 	}
 
+	@available(*, deprecated)
 	static func buttonPrimary(with text: String) -> some View {
 		return Text(text)
 			.kerning(0.01)
@@ -169,6 +196,7 @@ public extension Text {
 			.font(Font.custom("AktivGroteskApp-Bold", size: 16))
 	}
 
+	@available(*, deprecated)
 	static func buttonPillRegular(with text: String) -> some View {
 		return Text(text)
 			.kerning(0.01)
@@ -176,6 +204,7 @@ public extension Text {
 			.font(Font.custom("AktivGroteskApp-Regular", size: 14))
 	}
 
+	@available(*, deprecated)
 	static func buttonPillBold(with text: String) -> some View {
 		return Text(text)
 			.kerning(0.01)
@@ -183,6 +212,7 @@ public extension Text {
 			.font(Font.custom("AktivGroteskApp-Bold", size: 14))
 	}
 
+	@available(*, deprecated)
 	static func textFieldLabel(with text: String) -> some View {
 		return Text(text)
 			.kerning(0.01)
@@ -190,6 +220,7 @@ public extension Text {
 			.font(Font.custom("AktivGroteskApp-Bold", size: 12))
 	}
 
+	@available(*, deprecated)
 	static func textFieldInput(with text: String) -> some View {
 		return Text(text)
 			.kerning(0.01)
@@ -197,6 +228,7 @@ public extension Text {
 			.font(Font.custom("AktivGroteskApp-Regular", size: 16))
 	}
 
+	@available(*, deprecated)
 	static func textFieldHelper(with text: String) -> some View {
 		return Text(text)
 			.kerning(0.01)
@@ -204,6 +236,7 @@ public extension Text {
 			.font(Font.custom("AktivGroteskApp-Regular", size: 12))
 	}
 
+	@available(*, deprecated)
 	static func calendarDaysRow(with text: String) -> some View {
 		return Text(text)
 			.kerning(0)
@@ -211,6 +244,7 @@ public extension Text {
 			.font(Font.custom("AktivGroteskApp-Bold", size: 12))
 	}
 
+	@available(*, deprecated)
 	static func calendarDayPicker(with text: String) -> some View {
 		return Text(text)
 			.kerning(0)
@@ -218,6 +252,7 @@ public extension Text {
 			.font(Font.custom("AktivGroteskApp-Regular", size: 18))
 	}
 
+	@available(*, deprecated)
 	static func calendarPrice(with text: String) -> some View {
 		return Text(text)
 			.kerning(0)
