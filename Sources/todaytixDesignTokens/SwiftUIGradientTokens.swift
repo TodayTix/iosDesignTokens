@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Thu, 04 Jan 2024 21:22:15 GMT
+// Generated on Wed, 10 Jan 2024 22:00:20 GMT
 
 
 import SwiftUI
@@ -223,6 +223,17 @@ public extension LinearGradient {
 			],
 			startPoint: UnitPoint(x: 0.5, y: 0.95),
 			endPoint: UnitPoint(x: 0.5, y: 0.05)
+		)
+	}
+
+	static func coreGradientDusk() -> LinearGradient {
+		return LinearGradient(
+			colors: [
+				Color(red: 0.275, green: 0.235, blue: 0.318, opacity: 1),
+				Color(red: 0.129, green: 0.125, blue: 0.176, opacity: 1)
+			],
+			startPoint: UnitPoint(x: 0.05, y: 0.5),
+			endPoint: UnitPoint(x: 0.95, y: 0.5)
 		)
 	}
 

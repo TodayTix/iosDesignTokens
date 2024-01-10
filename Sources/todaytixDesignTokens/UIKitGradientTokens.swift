@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Thu, 04 Jan 2024 21:22:15 GMT
+// Generated on Wed, 10 Jan 2024 22:00:20 GMT
 
 
 import UIKit
@@ -163,6 +163,14 @@ public extension CAGradientLayer {
 		gradientLayer.colors = [UIColor(red: 0.157, green: 0.137, blue: 0.271, alpha: 1).cgColor, UIColor(red: 0.043, green: 0.043, blue: 0.063, alpha: 1).cgColor]
 		gradientLayer.startPoint = CGPoint(x: 0.5, y: 0.95)
 		gradientLayer.endPoint = CGPoint(x: 0.5, y: 0.05)
+		return gradientLayer
+	}
+
+	static func coreGradientDusk() -> CAGradientLayer {
+		let gradientLayer = CAGradientLayer()
+		gradientLayer.colors = [UIColor(red: 0.275, green: 0.235, blue: 0.318, alpha: 1).cgColor, UIColor(red: 0.129, green: 0.125, blue: 0.176, alpha: 1).cgColor]
+		gradientLayer.startPoint = CGPoint(x: 0.05, y: 0.5)
+		gradientLayer.endPoint = CGPoint(x: 0.95, y: 0.5)
 		return gradientLayer
 	}
 
