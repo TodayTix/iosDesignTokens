@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Wed, 10 Jan 2024 22:00:20 GMT
+// Generated on Thu, 28 Mar 2024 19:41:01 GMT
 
 
 import SwiftUI
@@ -266,74 +266,136 @@ public extension Text {
 
 
 struct h1SmModifier: ViewModifier {
-	func body(content: Content) -> some View {
-		content
+	@ViewBuilder func body(content: Content) -> some View {
+		if #available(iOS 16.0, *) {
+			content
+			.baselineOffset(2)
 			.lineSpacing(6.1)
 			.font(Font.custom("Gellix-Bold", size: 49))
+		} else {
+			content
+			.lineSpacing(6.1)
+			.font(Font.custom("Gellix-Bold", size: 49))
+		}
 	}
 }
 
 struct h1MdModifier: ViewModifier {
-	func body(content: Content) -> some View {
-		content
+	@ViewBuilder func body(content: Content) -> some View {
+		if #available(iOS 16.0, *) {
+			content
+			.baselineOffset(2)
 			.lineSpacing(7)
 			.font(Font.custom("Gellix-Bold", size: 56))
+		} else {
+			content
+			.lineSpacing(7)
+			.font(Font.custom("Gellix-Bold", size: 56))
+		}
 	}
 }
 
 struct h2SmModifier: ViewModifier {
-	func body(content: Content) -> some View {
-		content
+	@ViewBuilder func body(content: Content) -> some View {
+		if #available(iOS 16.0, *) {
+			content
+			.baselineOffset(2)
 			.font(Font.custom("Gellix-Bold", size: 39))
+		} else {
+			content
+			.font(Font.custom("Gellix-Bold", size: 39))
+		}
 	}
 }
 
 struct h2MdModifier: ViewModifier {
-	func body(content: Content) -> some View {
-		content
+	@ViewBuilder func body(content: Content) -> some View {
+		if #available(iOS 16.0, *) {
+			content
+			.baselineOffset(2)
 			.font(Font.custom("Gellix-Bold", size: 45))
+		} else {
+			content
+			.font(Font.custom("Gellix-Bold", size: 45))
+		}
 	}
 }
 
 struct h3SmModifier: ViewModifier {
-	func body(content: Content) -> some View {
-		content
+	@ViewBuilder func body(content: Content) -> some View {
+		if #available(iOS 16.0, *) {
+			content
+			.baselineOffset(2)
 			.font(Font.custom("Gellix-Bold", size: 31))
+		} else {
+			content
+			.font(Font.custom("Gellix-Bold", size: 31))
+		}
 	}
 }
 
 struct h3MdModifier: ViewModifier {
-	func body(content: Content) -> some View {
-		content
+	@ViewBuilder func body(content: Content) -> some View {
+		if #available(iOS 16.0, *) {
+			content
+			.baselineOffset(2)
 			.font(Font.custom("Gellix-Bold", size: 36))
+		} else {
+			content
+			.font(Font.custom("Gellix-Bold", size: 36))
+		}
 	}
 }
 
 struct h4SmModifier: ViewModifier {
-	func body(content: Content) -> some View {
-		content
+	@ViewBuilder func body(content: Content) -> some View {
+		if #available(iOS 16.0, *) {
+			content
+			.baselineOffset(2)
 			.font(Font.custom("Gellix-Bold", size: 25))
+		} else {
+			content
+			.font(Font.custom("Gellix-Bold", size: 25))
+		}
 	}
 }
 
 struct h4MdModifier: ViewModifier {
-	func body(content: Content) -> some View {
-		content
+	@ViewBuilder func body(content: Content) -> some View {
+		if #available(iOS 16.0, *) {
+			content
+			.baselineOffset(2)
 			.font(Font.custom("Gellix-Bold", size: 29))
+		} else {
+			content
+			.font(Font.custom("Gellix-Bold", size: 29))
+		}
 	}
 }
 
 struct h5SmModifier: ViewModifier {
-	func body(content: Content) -> some View {
-		content
+	@ViewBuilder func body(content: Content) -> some View {
+		if #available(iOS 16.0, *) {
+			content
+			.baselineOffset(2)
 			.font(Font.custom("Gellix-Bold", size: 20))
+		} else {
+			content
+			.font(Font.custom("Gellix-Bold", size: 20))
+		}
 	}
 }
 
 struct h5MdModifier: ViewModifier {
-	func body(content: Content) -> some View {
-		content
+	@ViewBuilder func body(content: Content) -> some View {
+		if #available(iOS 16.0, *) {
+			content
+			.baselineOffset(2)
 			.font(Font.custom("Gellix-Bold", size: 23))
+		} else {
+			content
+			.font(Font.custom("Gellix-Bold", size: 23))
+		}
 	}
 }
 
