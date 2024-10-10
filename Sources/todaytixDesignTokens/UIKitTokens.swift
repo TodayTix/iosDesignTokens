@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 28 Mar 2024 19:41:01 GMT
+// Generated on Thu, 10 Oct 2024 00:31:47 GMT
 
 
 import UIKit
@@ -291,9 +291,9 @@ public enum UIKitTokens {
     public static let lightTextTextPrimary = UIColor(red: 0.043, green: 0.043, blue: 0.063, alpha: 1)
     public static let lightTextTextSecondary = UIColor(red: 0.392, green: 0.388, blue: 0.455, alpha: 1)
     public static let lightTransparentTransparent = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
-    public static let lineHeightsBodyMedium = CGFloat(1.6)
-    public static let lineHeightsBodySmall = CGFloat(1.6)
-    public static let lineHeightsHeading = CGFloat(1.25)
+    public static let lineHeightsBodyMedium = CGFloat(1.45)
+    public static let lineHeightsBodySmall = CGFloat(1.45)
+    public static let lineHeightsHeading = CGFloat(1.15)
     public static let lineHeightsTextField = CGFloat(1.25)
     public static let link = "underline"
     public static let opacityHigh = 0.9

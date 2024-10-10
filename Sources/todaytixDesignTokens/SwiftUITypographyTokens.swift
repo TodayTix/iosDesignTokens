@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Thu, 28 Mar 2024 19:41:01 GMT
+// Generated on Thu, 10 Oct 2024 00:31:47 GMT
 
 
 import SwiftUI
@@ -9,14 +9,14 @@ public extension Text {
 	@available(*, deprecated)
 	static func h1Sm(with text: String) -> some View {
 		return Text(text)
-			.lineSpacing(6.1)
+			.lineSpacing(3.7)
 			.font(Font.custom("Gellix-Bold", size: 49))
 	}
 
 	@available(*, deprecated)
 	static func h1Md(with text: String) -> some View {
 		return Text(text)
-			.lineSpacing(7)
+			.lineSpacing(4.2)
 			.font(Font.custom("Gellix-Bold", size: 56))
 	}
 
@@ -71,56 +71,56 @@ public extension Text {
 	@available(*, deprecated)
 	static func h6Sm(with text: String) -> some View {
 		return Text(text)
-			.lineSpacing(6)
+			.lineSpacing(4.5)
 			.font(Font.custom("AktivGroteskApp-Bold", size: 20))
 	}
 
 	@available(*, deprecated)
 	static func h6Md(with text: String) -> some View {
 		return Text(text)
-			.lineSpacing(6.9)
+			.lineSpacing(5.2)
 			.font(Font.custom("AktivGroteskApp-Bold", size: 23))
 	}
 
 	@available(*, deprecated)
 	static func h7Sm(with text: String) -> some View {
 		return Text(text)
-			.lineSpacing(5.4)
+			.lineSpacing(4)
 			.font(Font.custom("AktivGroteskApp-Bold", size: 18))
 	}
 
 	@available(*, deprecated)
 	static func h7Md(with text: String) -> some View {
 		return Text(text)
-			.lineSpacing(6.3)
+			.lineSpacing(4.7)
 			.font(Font.custom("AktivGroteskApp-Bold", size: 21))
 	}
 
 	@available(*, deprecated)
 	static func bodyPrimaryRegularSmall(with text: String) -> some View {
 		return Text(text)
-			.lineSpacing(4.8)
+			.lineSpacing(3.6)
 			.font(Font.custom("AktivGroteskApp-Regular", size: 16))
 	}
 
 	@available(*, deprecated)
 	static func bodyPrimaryRegularMedium(with text: String) -> some View {
 		return Text(text)
-			.lineSpacing(5.4)
+			.lineSpacing(4)
 			.font(Font.custom("AktivGroteskApp-Regular", size: 18))
 	}
 
 	@available(*, deprecated)
 	static func bodyPrimaryBoldSmall(with text: String) -> some View {
 		return Text(text)
-			.lineSpacing(4.8)
+			.lineSpacing(3.6)
 			.font(Font.custom("AktivGroteskApp-Bold", size: 16))
 	}
 
 	@available(*, deprecated)
 	static func bodyPrimaryBoldMedium(with text: String) -> some View {
 		return Text(text)
-			.lineSpacing(5.4)
+			.lineSpacing(4)
 			.font(Font.custom("AktivGroteskApp-Bold", size: 18))
 	}
 
@@ -128,7 +128,7 @@ public extension Text {
 	static func bodySecondaryRegularSmall(with text: String) -> some View {
 		return Text(text)
 			.kerning(0.01)
-			.lineSpacing(4.2)
+			.lineSpacing(3.2)
 			.font(Font.custom("AktivGroteskApp-Regular", size: 14))
 	}
 
@@ -136,7 +136,7 @@ public extension Text {
 	static func bodySecondaryRegularMedium(with text: String) -> some View {
 		return Text(text)
 			.kerning(0.01)
-			.lineSpacing(4.8)
+			.lineSpacing(3.6)
 			.font(Font.custom("AktivGroteskApp-Regular", size: 16))
 	}
 
@@ -144,7 +144,7 @@ public extension Text {
 	static func bodySecondaryBoldSmall(with text: String) -> some View {
 		return Text(text)
 			.kerning(0.01)
-			.lineSpacing(4.2)
+			.lineSpacing(3.2)
 			.font(Font.custom("AktivGroteskApp-Bold", size: 14))
 	}
 
@@ -152,7 +152,7 @@ public extension Text {
 	static func bodySecondaryBoldMedium(with text: String) -> some View {
 		return Text(text)
 			.kerning(0.01)
-			.lineSpacing(4.8)
+			.lineSpacing(3.6)
 			.font(Font.custom("AktivGroteskApp-Bold", size: 16))
 	}
 
@@ -160,7 +160,7 @@ public extension Text {
 	static func bodyTertiaryRegularSmall(with text: String) -> some View {
 		return Text(text)
 			.kerning(0.01)
-			.lineSpacing(3.6)
+			.lineSpacing(2.7)
 			.font(Font.custom("AktivGroteskApp-Regular", size: 12))
 	}
 
@@ -168,7 +168,7 @@ public extension Text {
 	static func bodyTertiaryRegularMedium(with text: String) -> some View {
 		return Text(text)
 			.kerning(0.01)
-			.lineSpacing(4.2)
+			.lineSpacing(3.2)
 			.font(Font.custom("AktivGroteskApp-Regular", size: 14))
 	}
 
@@ -176,7 +176,7 @@ public extension Text {
 	static func bodyTertiaryBoldSmall(with text: String) -> some View {
 		return Text(text)
 			.kerning(0.01)
-			.lineSpacing(3.6)
+			.lineSpacing(2.7)
 			.font(Font.custom("AktivGroteskApp-Bold", size: 12))
 	}
 
@@ -184,7 +184,7 @@ public extension Text {
 	static func bodyTertiaryBoldMedium(with text: String) -> some View {
 		return Text(text)
 			.kerning(0.01)
-			.lineSpacing(4.2)
+			.lineSpacing(3.2)
 			.font(Font.custom("AktivGroteskApp-Bold", size: 14))
 	}
 
@@ -216,7 +216,7 @@ public extension Text {
 	static func textFieldLabel(with text: String) -> some View {
 		return Text(text)
 			.kerning(0.01)
-			.lineSpacing(3.6)
+			.lineSpacing(2.7)
 			.font(Font.custom("AktivGroteskApp-Bold", size: 12))
 	}
 
@@ -232,7 +232,7 @@ public extension Text {
 	static func textFieldHelper(with text: String) -> some View {
 		return Text(text)
 			.kerning(0.01)
-			.lineSpacing(3.6)
+			.lineSpacing(2.7)
 			.font(Font.custom("AktivGroteskApp-Regular", size: 12))
 	}
 
@@ -270,11 +270,11 @@ struct h1SmModifier: ViewModifier {
 		if #available(iOS 16.0, *) {
 			content
 			.baselineOffset(2)
-			.lineSpacing(6.1)
+			.lineSpacing(1.15)
 			.font(Font.custom("Gellix-Bold", size: 49))
 		} else {
 			content
-			.lineSpacing(6.1)
+			.lineSpacing(1.15)
 			.font(Font.custom("Gellix-Bold", size: 49))
 		}
 	}
@@ -285,11 +285,11 @@ struct h1MdModifier: ViewModifier {
 		if #available(iOS 16.0, *) {
 			content
 			.baselineOffset(2)
-			.lineSpacing(7)
+			.lineSpacing(1.15)
 			.font(Font.custom("Gellix-Bold", size: 56))
 		} else {
 			content
-			.lineSpacing(7)
+			.lineSpacing(1.15)
 			.font(Font.custom("Gellix-Bold", size: 56))
 		}
 	}
@@ -402,7 +402,7 @@ struct h5MdModifier: ViewModifier {
 struct h6SmModifier: ViewModifier {
 	func body(content: Content) -> some View {
 		content
-			.lineSpacing(6)
+			.lineSpacing(1.45)
 			.font(Font.custom("AktivGroteskApp-Bold", size: 20))
 	}
 }
@@ -410,7 +410,7 @@ struct h6SmModifier: ViewModifier {
 struct h6MdModifier: ViewModifier {
 	func body(content: Content) -> some View {
 		content
-			.lineSpacing(6.9)
+			.lineSpacing(1.45)
 			.font(Font.custom("AktivGroteskApp-Bold", size: 23))
 	}
 }
@@ -418,7 +418,7 @@ struct h6MdModifier: ViewModifier {
 struct h7SmModifier: ViewModifier {
 	func body(content: Content) -> some View {
 		content
-			.lineSpacing(5.4)
+			.lineSpacing(1.45)
 			.font(Font.custom("AktivGroteskApp-Bold", size: 18))
 	}
 }
@@ -426,7 +426,7 @@ struct h7SmModifier: ViewModifier {
 struct h7MdModifier: ViewModifier {
 	func body(content: Content) -> some View {
 		content
-			.lineSpacing(6.3)
+			.lineSpacing(1.45)
 			.font(Font.custom("AktivGroteskApp-Bold", size: 21))
 	}
 }
@@ -434,7 +434,7 @@ struct h7MdModifier: ViewModifier {
 struct bodyPrimaryRegularSmallModifier: ViewModifier {
 	func body(content: Content) -> some View {
 		content
-			.lineSpacing(4.8)
+			.lineSpacing(1.45)
 			.font(Font.custom("AktivGroteskApp-Regular", size: 16))
 	}
 }
@@ -442,7 +442,7 @@ struct bodyPrimaryRegularSmallModifier: ViewModifier {
 struct bodyPrimaryRegularMediumModifier: ViewModifier {
 	func body(content: Content) -> some View {
 		content
-			.lineSpacing(5.4)
+			.lineSpacing(1.45)
 			.font(Font.custom("AktivGroteskApp-Regular", size: 18))
 	}
 }
@@ -450,7 +450,7 @@ struct bodyPrimaryRegularMediumModifier: ViewModifier {
 struct bodyPrimaryBoldSmallModifier: ViewModifier {
 	func body(content: Content) -> some View {
 		content
-			.lineSpacing(4.8)
+			.lineSpacing(1.45)
 			.font(Font.custom("AktivGroteskApp-Bold", size: 16))
 	}
 }
@@ -458,7 +458,7 @@ struct bodyPrimaryBoldSmallModifier: ViewModifier {
 struct bodyPrimaryBoldMediumModifier: ViewModifier {
 	func body(content: Content) -> some View {
 		content
-			.lineSpacing(5.4)
+			.lineSpacing(1.45)
 			.font(Font.custom("AktivGroteskApp-Bold", size: 18))
 	}
 }
@@ -466,7 +466,7 @@ struct bodyPrimaryBoldMediumModifier: ViewModifier {
 struct bodySecondaryRegularSmallModifier: ViewModifier {
 	func body(content: Content) -> some View {
 		content
-			.lineSpacing(4.2)
+			.lineSpacing(1.45)
 			.font(Font.custom("AktivGroteskApp-Regular", size: 14))
 	}
 }
@@ -474,7 +474,7 @@ struct bodySecondaryRegularSmallModifier: ViewModifier {
 struct bodySecondaryRegularMediumModifier: ViewModifier {
 	func body(content: Content) -> some View {
 		content
-			.lineSpacing(4.8)
+			.lineSpacing(1.45)
 			.font(Font.custom("AktivGroteskApp-Regular", size: 16))
 	}
 }
@@ -482,7 +482,7 @@ struct bodySecondaryRegularMediumModifier: ViewModifier {
 struct bodySecondaryBoldSmallModifier: ViewModifier {
 	func body(content: Content) -> some View {
 		content
-			.lineSpacing(4.2)
+			.lineSpacing(1.45)
 			.font(Font.custom("AktivGroteskApp-Bold", size: 14))
 	}
 }
@@ -490,7 +490,7 @@ struct bodySecondaryBoldSmallModifier: ViewModifier {
 struct bodySecondaryBoldMediumModifier: ViewModifier {
 	func body(content: Content) -> some View {
 		content
-			.lineSpacing(4.8)
+			.lineSpacing(1.45)
 			.font(Font.custom("AktivGroteskApp-Bold", size: 16))
 	}
 }
@@ -498,7 +498,7 @@ struct bodySecondaryBoldMediumModifier: ViewModifier {
 struct bodyTertiaryRegularSmallModifier: ViewModifier {
 	func body(content: Content) -> some View {
 		content
-			.lineSpacing(3.6)
+			.lineSpacing(1.45)
 			.font(Font.custom("AktivGroteskApp-Regular", size: 12))
 	}
 }
@@ -506,7 +506,7 @@ struct bodyTertiaryRegularSmallModifier: ViewModifier {
 struct bodyTertiaryRegularMediumModifier: ViewModifier {
 	func body(content: Content) -> some View {
 		content
-			.lineSpacing(4.2)
+			.lineSpacing(1.45)
 			.font(Font.custom("AktivGroteskApp-Regular", size: 14))
 	}
 }
@@ -514,7 +514,7 @@ struct bodyTertiaryRegularMediumModifier: ViewModifier {
 struct bodyTertiaryBoldSmallModifier: ViewModifier {
 	func body(content: Content) -> some View {
 		content
-			.lineSpacing(3.6)
+			.lineSpacing(1.45)
 			.font(Font.custom("AktivGroteskApp-Bold", size: 12))
 	}
 }
@@ -522,7 +522,7 @@ struct bodyTertiaryBoldSmallModifier: ViewModifier {
 struct bodyTertiaryBoldMediumModifier: ViewModifier {
 	func body(content: Content) -> some View {
 		content
-			.lineSpacing(4.2)
+			.lineSpacing(1.45)
 			.font(Font.custom("AktivGroteskApp-Bold", size: 14))
 	}
 }
@@ -530,7 +530,7 @@ struct bodyTertiaryBoldMediumModifier: ViewModifier {
 struct buttonPrimaryModifier: ViewModifier {
 	func body(content: Content) -> some View {
 		content
-			.lineSpacing(2)
+			.lineSpacing(1.25)
 			.font(Font.custom("AktivGroteskApp-Bold", size: 16))
 	}
 }
@@ -538,7 +538,7 @@ struct buttonPrimaryModifier: ViewModifier {
 struct buttonPillRegularModifier: ViewModifier {
 	func body(content: Content) -> some View {
 		content
-			.lineSpacing(1.8)
+			.lineSpacing(1.25)
 			.font(Font.custom("AktivGroteskApp-Regular", size: 14))
 	}
 }
@@ -546,7 +546,7 @@ struct buttonPillRegularModifier: ViewModifier {
 struct buttonPillBoldModifier: ViewModifier {
 	func body(content: Content) -> some View {
 		content
-			.lineSpacing(1.8)
+			.lineSpacing(1.25)
 			.font(Font.custom("AktivGroteskApp-Bold", size: 14))
 	}
 }
@@ -554,7 +554,7 @@ struct buttonPillBoldModifier: ViewModifier {
 struct textFieldLabelModifier: ViewModifier {
 	func body(content: Content) -> some View {
 		content
-			.lineSpacing(3.6)
+			.lineSpacing(1.45)
 			.font(Font.custom("AktivGroteskApp-Bold", size: 12))
 	}
 }
@@ -562,7 +562,7 @@ struct textFieldLabelModifier: ViewModifier {
 struct textFieldInputModifier: ViewModifier {
 	func body(content: Content) -> some View {
 		content
-			.lineSpacing(2)
+			.lineSpacing(1.25)
 			.font(Font.custom("AktivGroteskApp-Regular", size: 16))
 	}
 }
@@ -570,7 +570,7 @@ struct textFieldInputModifier: ViewModifier {
 struct textFieldHelperModifier: ViewModifier {
 	func body(content: Content) -> some View {
 		content
-			.lineSpacing(3.6)
+			.lineSpacing(1.45)
 			.font(Font.custom("AktivGroteskApp-Regular", size: 12))
 	}
 }
@@ -578,6 +578,7 @@ struct textFieldHelperModifier: ViewModifier {
 struct calendarDaysRowModifier: ViewModifier {
 	func body(content: Content) -> some View {
 		content
+			.lineSpacing(1)
 			.font(Font.custom("AktivGroteskApp-Bold", size: 12))
 	}
 }
@@ -585,6 +586,7 @@ struct calendarDaysRowModifier: ViewModifier {
 struct calendarDayPickerModifier: ViewModifier {
 	func body(content: Content) -> some View {
 		content
+			.lineSpacing(1)
 			.font(Font.custom("AktivGroteskApp-Regular", size: 18))
 	}
 }
@@ -592,6 +594,7 @@ struct calendarDayPickerModifier: ViewModifier {
 struct calendarPriceModifier: ViewModifier {
 	func body(content: Content) -> some View {
 		content
+			.lineSpacing(1)
 			.font(Font.custom("AktivGroteskApp-Regular", size: 12))
 	}
 }

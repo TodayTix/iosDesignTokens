@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 28 Mar 2024 19:41:01 GMT
+// Generated on Thu, 10 Oct 2024 00:31:47 GMT
 
 
 import SwiftUI
@@ -291,9 +291,9 @@ public enum SwiftUITokens {
     public static let lightTextTextPrimary = Color(red: 0.043, green: 0.043, blue: 0.063, opacity: 1)
     public static let lightTextTextSecondary = Color(red: 0.392, green: 0.388, blue: 0.455, opacity: 1)
     public static let lightTransparentTransparent = Color(red: 1.000, green: 1.000, blue: 1.000, opacity: 1)
-    public static let lineHeightsBodyMedium = CGFloat(1.6)
-    public static let lineHeightsBodySmall = CGFloat(1.6)
-    public static let lineHeightsHeading = CGFloat(1.25)
+    public static let lineHeightsBodyMedium = CGFloat(1.45)
+    public static let lineHeightsBodySmall = CGFloat(1.45)
+    public static let lineHeightsHeading = CGFloat(1.15)
     public static let lineHeightsTextField = CGFloat(1.25)
     public static let link = "underline"
     public static let opacityHigh = 0.9
