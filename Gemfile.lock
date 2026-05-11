@@ -209,14 +209,10 @@ GEM
       xcpretty (~> 0.2, >= 0.0.7)
 
 PLATFORMS
-  arm64-darwin-25
   universal-darwin-21
 
 DEPENDENCIES
-  addressable (>= 2.9.0)
   fastlane
-  rexml (>= 3.3.9)
-  webrick (>= 1.8.2)
 
 BUNDLED WITH
    2.4.22
