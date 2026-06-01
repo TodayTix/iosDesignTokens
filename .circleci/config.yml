@@ -29,7 +29,8 @@ jobs:
   create-new-release:
     working_directory: ~/project
     macos:
-     xcode: 14.2.0 # min macOS version for this is 12.6.3. Possible values at https://circleci.com/docs/2.0/testing-ios/#supported-xcode-versions
+     xcode: 16.2.0 # Possible values at https://circleci.com/docs/2.0/testing-ios/#supported-xcode-versions
+    resource_class: macos.m1.medium.gen1
     steps:
       - checkout
       - *restore_gems_cache
